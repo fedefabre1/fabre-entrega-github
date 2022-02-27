@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 130%;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    background-color: #009d71;
+  
+}
+
+header div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header div nav{
+    margin-top:140px;
+}
+
+header div nav ul{
+    list-style-type: none;
+    display: flex;
+   
+    
+}
+header div nav ul li{
+    margin: 0 15px;
+    font-size: 25px;
+    align-items: flex-end;
+
+}
+header div nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding:0 10px;
+    background-color: #789dca;
+    border-radius: 50px;
+
+}
+
+
+main{
+    
+    background-color: #57bd9e;
+}
+
+
+section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 5px;
+    margin: 0 auto;
+    
+
+
+}
+main section article{
+    text-align: center;
+   
+    
+}
+
+.main__tabla{
+
+    font-size: 110%;
+    font-weight: bold;
+    background-color: white;
+  
+}
+
+main h2{
+    background-color: #789dca;
+    text-align: center;
+    font-weight: bold;
+    color: white
+}
+section article{
+    margin-top: 10px;
+    border: solid black 3px;
+}
+footer{
+    
+    height: 200px;
+    background-color: #57bd9e;
+
+}
+
+footer section{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+footer section div{
+
+    width: 200px;
+    text-align: center;
+   
+   
+}
+
+footer section div ul{
+    list-style-type: none;
+}
+footer section div ul li{
+    margin-top: 5px;
+}
+
+
+
+
+.footer__enlace{
+
+text-decoration: none;
+color: black;
+}
+
+.footer__titulo{
+
+  font-size: 140%;
+  font-weight: bold;
+  color: white;
+  background-color: #789dca;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+ 
+ 
+}
+
+
+@media (max-width: 768px){
+    body{
+        font-size: 100%;
+    }
+    header div nav{
+        display: none;
+    }
+    header div{
+        justify-content: center;
+    }
+}
+@media (max-width:480px){
+
+        body{
+            font-size: 80%;
+        }
+        footer section{
+            justify-content:space-between;
+        }
+     
+}
+    
