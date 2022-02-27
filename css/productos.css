@@ -50,8 +50,14 @@ header div nav ul li a{
 
 main{
     
-    background-color: #57bd9e;
+    background-color: #2ca880;
+    height: 350px;
+   
 }
+.tabla{
+    margin-top: 5px;
+}
+
 
 
 section{
@@ -66,6 +72,7 @@ section{
 }
 main section article{
     text-align: center;
+    
    
     
 }
@@ -79,10 +86,11 @@ main section article{
 }
 
 main h2{
-    background-color: #789dca;
+   
     text-align: center;
     font-weight: bold;
-    color: white
+    color: white;
+    background-image: linear-gradient(130deg ,#789dca 20%,lightgreen,#2ca880 );
 }
 section article{
     margin-top: 10px;
@@ -100,6 +108,7 @@ footer section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
    
 }
 

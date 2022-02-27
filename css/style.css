@@ -48,32 +48,59 @@ header div nav ul li a{
 }
 main{
     background-color: #2ca880;
+    height: 450px;
+    
   
+
     
 }
 main section{
     
+    
+  
     display: flex;
     justify-content: space-evenly;
+    margin-top:25px;
+    
+    
+   
 
 
 }
 
 main h2{
     
-    background-color: #789dca;
+    
     text-align: center;
     font-weight: bold;
     color: white;
 
-    background-image: linear-gradient(130deg ,#789dca ,lightgreen);
+    background-image: linear-gradient(130deg ,#789dca 20%,lightgreen,#2ca880 );
 
+}
+.section__img{
+    width: 350px;
+    height: 350px;
+    transition: 3s;
+
+
+}
+
+.section__img:hover{
+
+  transform: scale(1.3);
+   
+    
 
     
 }
 
+
+
+
+
 footer{
-    
+   
     height: 200px;
     background-color: #57bd9e;
 
