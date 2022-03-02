@@ -16,6 +16,7 @@ header{
 
 header div{
     width: 80%;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,25 +49,27 @@ header div nav ul li a{
 }
 main{
     background-color: #2ca880;
-    height: 450px;
+    
+    
     
   
 
     
 }
-main section{
+main section {
     
     
   
     display: flex;
-    justify-content: space-evenly;
-    margin-top:25px;
+    justify-content: space-around;
+    
     
     
    
 
 
 }
+
 
 main h2{
     
@@ -181,6 +184,17 @@ color: black;
    footer section{
        justify-content: space-between;
    }
+
+   .section__img:hover{
+
+    transform: none;
+     
+      
+  
+      
+  }
+  
+
 
 }
 
