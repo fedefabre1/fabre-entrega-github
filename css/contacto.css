@@ -51,9 +51,14 @@ header div nav ul li a{
   background-color: #2ca880;;
  }
  main h2{
-     text-align: center;
-     color: white;
- }
+   
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    
+        background-image: linear-gradient(130deg ,#789dca 20%,lightgreen,#2ca880 );
+    
+    }
  
 
     footer{
