@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size: 130%;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header{
+  background-color: #009d71;
+
+}
+
+header div{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+header div nav{
+  margin-top:140px;
+
+}
+
+
+header div nav ul li{
+  margin: 0 15px;
+  font-size: 25px;
+  align-items: flex-end;
+
+}
+header div nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  transition: 1s ease;
+  
+
+}
+header div nav ul li:hover{
+  
+  color: #789dca;
+  
+}
+
+
+main{
+  background-color: #2ca880;
+
+
+}
+
+main h2{
+  background-image: linear-gradient(to left, #2ca880,#789dca, lightgreen);
+  text-align: center;
+  font-weight: bold;
+  color: white
+}
+.container{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer{
+  
+ 
+  background-color: #57bd9e;
+
+}
+
+footer section{
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+.caja h3{
+  color: white;
+  font-size: 30px;
+
+}
+.caja p{
+  text-align: center;
+}
+
+footer section div{
+
+  width: 200px;
+  text-align: center;
+ 
+ 
+}
+
+footer section div ul{
+  list-style-type: none;
+}
+footer section div ul li{
+  margin-top: 5px;
+}
+
+
+
+
+.footer__enlace{
+
+text-decoration: none;
+color: black;
+
+}
+
+.footer__titulo{
+
+font-size: 140%;
+font-weight: bold;
+color: white;
+background-color: #789dca;
+display: inline-block;
+border-radius: 50px;
+text-align: center;
+
+
+}
+
+
+
+@media (max-width: 768px){
+  .container div h3{
+    font-size: 20px;
+  }
+ .container{
+   
+   flex-direction: column-reverse;
+ }
+  header div nav ul li{
+    font-size: 20px;
+  
+}
+
+  header div{
+      justify-content: center;
+  }
+}
+
+@media (max-width:480px){
+
+  body{
+      font-size: 80%;
+  }
+ footer section{
+     justify-content: space-between;
+ }
+
+}

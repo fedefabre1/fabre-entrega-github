@@ -51,35 +51,52 @@ header div nav ul li:hover{
 }
 
 
+
 main{
+    
     background-color: #2ca880;
     
+}
+
+
+section{
+    padding: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 5px;
+    margin: 0 auto;
+    
+
 
 }
-main section{
-    padding: 20px;
-    width: 50%;
-    margin:0 auto;
-
+main section article{
+    text-align: center;
+   
+    
 }
+
+.main__tabla{
+
+    font-size: 110%;
+    font-weight: bold;
+    background-color: white;
+  
+}
+
 main h2{
     background-image: linear-gradient(to left, #2ca880,#789dca, lightgreen);
     text-align: center;
     font-weight: bold;
     color: white
 }
-
-.label__email{
-    font-size: 
-}
-
-.label__email::before{
-
-    content: "✉";
+section article{
+    margin-top: 10px;
+    border: solid black 3px;
 }
 footer{
     
-   
+    height: 200px;
     background-color: #57bd9e;
 
 }
@@ -130,33 +147,24 @@ color: black;
 }
 
 
-
 @media (max-width: 768px){
     body{
-        font-size: 100%
+        font-size: 100%;
     }
-    header div nav ul li{
-        font-size: 20px;
-    }
- 
+
     header div{
+        
         justify-content: center;
     }
-    main section{
-      
-        width: 100%;
-       
-    
-    }
-}
-
+   
 @media (max-width:480px){
 
-    body{
-        font-size: 80%;
-    }
-   footer section{
-       justify-content: space-between;
-   }
-
+        body{
+            font-size: 80%;
+        }
+        footer section{
+            justify-content:space-between;
+        }
+     
 }
+    
